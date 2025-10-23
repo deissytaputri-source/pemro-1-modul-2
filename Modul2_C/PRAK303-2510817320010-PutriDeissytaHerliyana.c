@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    float a, b, i, j, x, y, hasil;
+int main(){
+    int nilai;
 
-    scanf("%f %f %f %f %f %f", &a, &b, &i, &j, &x, &y);
+    scanf("%d", &nilai);
 
-    hasil = (a - b) * i / j - (x + y);
-
-    printf("%.3f\n", hasil);
+    if(nilai==0){
+        printf("nol\n");
+    } else if(nilai > 0){
+        printf("positif\n");
+    } else{
+        printf("negatif\n");
+    }
 
     return 0;
 }
- //benerin nanti pakai if else
