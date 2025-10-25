@@ -10,3 +10,5 @@ elif nilai >= 50:
     huruf = 'D'
 else:
     huruf = 'E'
+
+print(huruf) 
