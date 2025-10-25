@@ -4,7 +4,6 @@ int main() {
     int nilai;
     char huruf;
 
-    printf("Masukkan nilai: ");
     scanf("%d", &nilai);
 
     if (nilai >= 80) {
