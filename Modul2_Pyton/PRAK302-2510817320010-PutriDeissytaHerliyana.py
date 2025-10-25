@@ -1,4 +1,4 @@
-nilai = int(input("Masukkan nilai: "))
+nilai = int(input())
 
 if nilai >= 80:
     huruf = "A"
