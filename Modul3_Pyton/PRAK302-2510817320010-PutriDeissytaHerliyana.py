@@ -11,4 +11,4 @@ elif 50 <= nilai <= 59:
 else:
     huruf = "E"
 
-print("Nilai huruf:", huruf)
+print(huruf)
