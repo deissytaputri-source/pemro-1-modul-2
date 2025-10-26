@@ -1,12 +1,14 @@
 nilai = int(input())
 
 if nilai == 0:
-    print("Nol")
+    hasil = "Nol"
 elif nilai < 10:
-    print("Satuan")
-elif nilai <20:
-    print("Belasan")
-elif nilai <100:
-    print("Ratusan")
-else: 
-    print("Anda Menginput Melebihi Limit Bilangan")
+    hasil = "Satuan"
+elif nilai < 20:
+    hasil = "Belasan"
+elif nilai < 100:
+    hasil = "Puluhan"
+else:
+    hasil = "Anda Menginput Melebihi Limit Bilangan"
+
+print(hasil)
