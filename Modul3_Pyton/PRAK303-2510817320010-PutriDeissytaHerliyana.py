@@ -1,14 +1,8 @@
 nilai = int(input())
 
-if nilai >= 80:
-    huruf = 'A'
-elif nilai >= 70:
-    huruf = 'B'
-elif nilai >= 60:
-    huruf = 'C'
-elif nilai >= 50:
-    huruf = 'D'
+if nilai == 0:
+    print("nol")
+elif nilai > 0:
+    print("positif")
 else:
-    huruf = 'E'
-
-print(huruf) 
+    print("negatif")
