@@ -2,9 +2,9 @@
 
 int main() {
     int nilai;
-    char huruf;
-
     scanf("%d", &nilai);
+
+    char huruf;
 
     if (nilai >= 80) {
         huruf = 'A';
@@ -18,6 +18,6 @@ int main() {
         huruf = 'E';
     }
 
-    printf("Nilai huruf: %c\n", huruf);
+    printf("%c\n", huruf);
     return 0;
 }
